@@ -1,0 +1,492 @@
+/*Header*/
+#home header, #about header, #contact header,#activity header{
+    width: 100%;
+    padding-top: 3em;
+}
+
+#home header, #about header, #contact header,#activity header{
+    background: no-repeat lightgrey url(images/cliff_ocean.jpg);
+    /* background-size: 100%; */
+    /* width: 100%; */
+    background-size: cover;
+    min-height: 400px;
+    margin:0;
+}  
+
+#activities header{
+    background: no-repeat lightgrey url(images/runfly.jpeg);
+    background-size: 100%;
+    width: 100%;
+    min-height: 400px;
+    padding-top: 3em;
+}
+
+#contact header{
+    background: no-repeat lightgrey url(images/cliff_rock.jpeg);
+    background-size: 100%;
+    width: 100%;
+    min-height: 400px;
+    padding-top: 3em;
+}
+
+#cliffs header{
+    background: no-repeat lightgrey url(images/forest_cliff.jpeg);
+    background-size: 100%;
+    width: 100%;
+    min-height: 400px;
+    padding-top: 3em;
+}
+
+.main-header{
+    /* background-color: rgb(255,255,255,0.8); */
+    width: 700px;
+    margin:2em auto 0 auto;
+    min-height: 100px;
+    height:100px;
+}
+
+
+img[src="images/logo.png"]{
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin:0 2em 0 0;
+
+}
+
+#timeofday{
+    top: 220px;
+    height: 40px;
+    text-align:center;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    background-image: linear-gradient(rgb(251, 215, 139,1) 0%,rgb(118, 213, 245,1)100%);
+}
+
+#clock{
+    color:rgb(15, 15, 225)
+}
+
+/*Navigation*/
+
+header{
+    /* background-color:rgb(178, 171, 171, 0.8); */
+}
+.main-menu{
+    margin-left: 227px;
+    font-weight:400;
+    max-width: 650px;
+    min-height: 100px;
+    position: relative;;
+   right:7%;
+   /* background-color:rgb(178, 171, 171, 0.8); */
+}
+
+nav{
+    background-color:rgba(202,204,202,0.6);
+    max-height: 100px;;
+}
+
+navbar{
+    background-color:rgba(202,204,202,0.6);
+    max-height: 100px;;
+}
+
+.main-menu ul li{
+    list-style-type:none;
+    display:inline-block;
+    /* float:left; */
+    padding-left: 25px;
+    padding-right:15px;
+    border-left: 1px solid rgba(202,204,202,0.6);
+    line-height: 100px; 
+    text-transform: uppercase;
+    font-size:14px;
+    /* background-color:rgb(178, 171, 171, 0.8); */
+    max-width: 100px;
+
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color:#888;
+}
+
+.main-menu ul li a:hover{
+    color:#9ed034;
+}
+
+.main-menu ul li.active{
+    background:#9ed034;
+    border: none;
+}
+
+.main-menu ul li.active a{
+    color:#fff;
+}
+
+/*Main*/
+
+#home h1{
+    color:#9ed034;
+    margin-top:3%;
+    
+}
+
+#home h1,h2,h3,p{
+    padding-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home .row div{
+    display:inline-block;
+}
+/*Partners*/
+
+section {
+    width: 100%;
+    background-color: #4288C3;
+    text-align: center;
+}
+
+.partner{
+    padding:15px 0;
+    display: inline-block;
+    padding:auto;
+    margin:auto;
+}
+
+
+section #partners {  
+    width: 1200px;
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+section #partners .partner {
+    /* display: inline-block; */
+    
+    margin: 0 0.75em;
+    padding: 1.3em 1.5em;
+    background-color: #fff;
+    border-radius: 50%;
+}
+section .partner img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 155px;
+    padding-bottom: 1em;
+    background-color: #ecfab8;
+}
+
+footer #nondisclaimer .copy{
+    padding:3.5em 3.5em 3.5em 13em;
+    float:left;
+    font-size: 0.9em;
+}
+
+
+footer #nondisclaimer .social{
+    padding:2.5em;
+    margin-right:9.25em;
+    float:right;
+}
+
+
+footer #disclaimer{
+    clear:both;
+}
+
+#disclaimer{
+    font-size:0.85em;
+    text-align: center;
+}
+
+
+footer #nondisclaimer .social .fa{
+    padding:15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin:0 4px;
+    border-radius: 50%;
+}
+
+footer #nondisclaimer .social .fa:hover{
+    opacity:0.7;
+}
+
+
+footer #nondisclaimer .social .fa-facebook{
+    background:#3b5998;
+    color:white;
+}
+
+footer #nondisclaimer .social .fa-twitter{
+    background:#55acee;
+    color:white;
+}
+footer #nondisclaimer .social .fa-instagram{
+    background:#125688;
+    color:white;
+}
+
+
+/*activities*/
+table{
+    width: 1000px;
+    margin:4em auto 0 auto;
+}
+
+caption{
+    background:#852b1b;
+    height: 40px;;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+thead{
+    background-color: #bde1ff;
+    text-align: center;
+
+}
+
+tbody{
+    background: #eeffe6;
+    text-align: center;
+}
+
+th,td{
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border:solid 1px #852b1b;
+}
+
+#th-1st{
+    width: 125px;
+    height: 50px;
+    background: #4977d1;
+    color:#fff;
+}
+
+td:first-child{
+    font-weight: bold;
+    background: #bde1ff;
+}
+
+/*contact*/
+#contact h1{
+    color:#9ed034;
+    margin-left: 3%;
+}
+
+.phone, .email{
+    margin:10px 0;
+}
+.contactinfo, form{
+    margin-left: 3%;
+}
+
+form{
+    margin-top: 15px;;
+}
+
+input, label{
+    display: block;
+    
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+input[type="radio"]{
+    display: inline;
+    margin-bottom: 10px;
+}
+
+#inquiries, #contact-method{
+    display: inline;
+    margin-bottom: 30px;
+}
+
+
+#contact p{
+    color:rgb(178, 171, 171);
+}
+
+
+.commentbox{
+    margin-top: 15px;;
+}
+
+legend{
+    color:#4977d1;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+span{
+    color:grey;
+}
+span:first-child{
+    color:black;
+}
+
+input[type="submit"]{
+    /* background-color: #4977d1; */
+    color:white;
+    margin-left: 365px;
+    width: 8em;
+    height:2.5em;
+    font-weight: bold;
+    border:none;
+}
+
+td:hover{
+    cursor: pointer;
+}
+.tdhighlight{
+    background-color: #9ed034;
+    color:#fff;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+#activities main #displaySelected{
+    visibility:hidden;
+    margin:0 auto;
+    width: 600px;
+    border:2px solid #9ed034;
+    padding: 0.75em;
+}
+
+#activities main #displaySelected #result, #activities main #displaySelected #sendinfo{
+    display:inline-block;
+    margin: 0;
+}
+
+#activities main #result{
+    min-height: 50px;
+    width: 300px;
+    padding: 0;
+}
+
+#activities main #result h4{
+    margin-bottom: 1em;
+    font-size: 1.15em;
+}
+
+#activities main #displaySelected #sendinfo input[type="email"]{
+    width: 200px;
+}
+
+
+/*Cliffs*/
+#cliffs h1{
+    color: #9ed034;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pictures img{
+    width: 500px;
+    display: inline-block;
+    padding: 1%;
+}
+
+figure{
+    display:inline-block;
+    padding: 2px;
+  
+}
+
+.gallery{
+    text-align: center;
+}
+
+figcaption{
+    position:relative;
+    bottom: 260px;
+    left:5px;
+    color: #fff;
+    background-color: #852b1b;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.randomcode input{
+    display: inline;
+   
+    left:200px;
+}
+
+#codes{
+    background-color:gray;
+    display: inline-block;
+    text-align: left;
+    padding: auto;
+}
+
+.randomcode{
+    position: relative;
+    left: 150px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    footer #nondisclaimer .copy {
+        padding: 3.5em 0em 3.5em 0em;
+        text-align: center;
+        float: none;
+        font-size: 0.9em;
+      }
+      footer #nondisclaimer .social {
+        padding: 2.5em 0;
+        margin: 0;
+        text-align: center;
+        float: none;
+      }
+}
+
+@media (max-width: 992px) {
+    .logo img {
+        position: relative;
+        bottom: 8px;
+    }
+    .main-menu {
+        width: 200px;
+        background-color:rgb(135, 135, 135,0.8);
+        position: absolute;
+        right: 1.7em;
+      }
+      .main-menu ul li {
+        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+      }
+      main {
+        padding: 3em 1em 3em 1em;
+        margin: 0;
+      }
+      #home .main-col-content {
+        padding: 25px;
+        min-height: 450px;
+        margin-top: 1em;
+      }
+}
